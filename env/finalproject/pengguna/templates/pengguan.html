@@ -7,7 +7,13 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Selamat Datang: {{nama}}</h1>
+    {% with umur=25 %}
+    <h2>Umur anda: {{umur}}</h2>
+    {% endwith %}
+
     <h1>Django Template</h1>
-    <p>Selamat datang di django pengguna</p>
+    <p>Selamat Datang di Django Pengguna</p>
+    Umur disini : {{umur}}
 </body>
 </html>
